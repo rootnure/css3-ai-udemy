@@ -1,9 +1,4 @@
-h1 {
-    color: brown;
-    background-color: aqua;
-    text-align: center;
-}
-p {
+h1, p {
     color: brown;
     background-color: aqua;
 }

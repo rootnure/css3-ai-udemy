@@ -3,14 +3,18 @@ body {
     padding: 0;
 }
 
-p::first-letter {
-    color: blue;
+ul li:first-child {
+    color: goldenrod;
 }
 
-p::after {
-    content: " Not Important";
+ul li:nth-child(2n) {
+    background-color: yellowgreen;
 }
 
-p::before {
-    content: "> ";
+ul li:nth-child(2n+1) {
+    font-size: 2rem;
+}
+
+ul li:last-child {
+    text-decoration: line-through;
 }

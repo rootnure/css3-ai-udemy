@@ -3,18 +3,22 @@ body {
     padding: 0;
 }
 
-ul li:first-child {
-    color: goldenrod;
+/* descendent selector */
+div p {                         /* select all the child inside div */
+    background-color: aqua;
 }
 
-ul li:nth-child(2n) {
-    background-color: yellowgreen;
+/* child selector */
+#div1>p {                       /* select all the immediate child inside #div1 */
+    color: blueviolet;
 }
 
-ul li:nth-child(2n+1) {
-    font-size: 2rem;
+/* adjacent selector */
+#div1 + p {                     /* select the first p after the #div1 */
+    font-size: 1.5rem;
 }
 
-ul li:last-child {
-    text-decoration: line-through;
+/* general selector */
+#div1 ~ p {                     /* select all p that come after #div1 */
+    text-decoration: underline;
 }

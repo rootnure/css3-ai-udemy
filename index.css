@@ -3,10 +3,18 @@ body {
     padding: 0;
 }
 
-#sec1 {
-    background-color: green;
+.btn {
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: 2px solid blue;
 }
 
-#sec2 {
-    background-color: burlywood;
+.btn-primary {
+    background-color: aqua;
+    color: #141414;
+}
+
+.btn-secondary {
+    background-color: brown;
+    color: whitesmoke;
 }

@@ -13,12 +13,12 @@ div p {                         /* select all the child inside div */
     color: blueviolet;
 }
 
-/* adjacent selector */
+/* adjacent sibling selector */
 #div1 + p {                     /* select the first p after the #div1 */
     font-size: 1.5rem;
 }
 
-/* general selector */
+/* general sibling selector */
 #div1 ~ p {                     /* select all p that come after #div1 */
     text-decoration: underline;
 }

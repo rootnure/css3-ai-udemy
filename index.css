@@ -3,7 +3,23 @@ body {
     padding: 0;
 }
 
-input[type="email"] {
-    background-color: aqua;
-    background-color: cyan;
+a {
+    color: black;
+    text-decoration: none;
+}
+
+button:hover {
+    color: green;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: blue;
+}
+
+button:disabled {
+    background-color: red;
+    cursor: not-allowed;
+    color: yellow;
 }

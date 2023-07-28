@@ -3,23 +3,14 @@ body {
     padding: 0;
 }
 
-a {
-    color: black;
-    text-decoration: none;
+p::first-letter {
+    color: blue;
 }
 
-button:hover {
-    color: green;
-    background-color: aquamarine;
-    cursor: pointer;
+p::after {
+    content: " Not Important";
 }
 
-button:active {
-    background-color: blue;
-}
-
-button:disabled {
-    background-color: red;
-    cursor: not-allowed;
-    color: yellow;
+p::before {
+    content: "> ";
 }

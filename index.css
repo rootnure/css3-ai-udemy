@@ -3,22 +3,7 @@ body {
     padding: 0;
 }
 
-.btn {
-    border-radius: 8px;
-    padding: 10px 20px;
-    border: 2px solid blue;
-}
-
-.btn-primary {
+input[type="email"] {
     background-color: aqua;
-    color: #141414;
-}
-
-.btn-secondary {
-    background-color: brown;
-    color: whitesmoke;
-}
-
-.first-div {
-    background-color: burlywood;
+    background-color: cyan;
 }

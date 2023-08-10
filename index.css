@@ -1,6 +1,31 @@
 /******************************
            Box Model 
- *****************************/
+******************************/
+
+p.box-model3.paragraph {
+   width: 500px;
+   max-height: 200px;
+   padding: 10px;
+   background-color: cyan;
+}
+p.box-model3.paragraph.overflow {
+   overflow: auto;
+   overflow-x: hidden;
+}
+
+
+img {
+   width: 50%;
+}
+
+img.box-model3.opacity {
+   opacity: 0.5;
+}
+
+img.box-model3.opacity:hover {
+   opacity: 1;
+}
+
 p.box-model2.display.paragraph1,
 p.box-model2.display.paragraph2,
 p.box-model2.display.paragraph3 {

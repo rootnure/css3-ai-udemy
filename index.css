@@ -1,4 +1,30 @@
 /******************************
+           Box Model 
+ *****************************/
+h1.box-model {
+   background-color: aquamarine;
+   padding: 20px;
+}
+p.box-model.paragraph1 {
+   background-color: khaki;
+   padding: 20px 10px;
+}
+p.box-model.paragraph2{
+   background-color: lime;
+   padding: 20px 10px 20px 10px;
+}
+p.box-model.paragraph3 {
+   width: 400px;
+   background-color: bisque;
+   padding-top: 20px;
+   padding-right: 10px;
+   padding-bottom: 20px;
+   padding-left: 10px;
+}
+
+
+
+/******************************
            typography 
  *****************************/
 p#typography {

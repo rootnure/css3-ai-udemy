@@ -1,12 +1,14 @@
 /******************************
            typography 
  *****************************/
-p {
+p#typography {
    /* default typography property in css */
    font-size: 1.2rem;
    font-weight: bold;
    font-style: italic;
    font-family: 'Roboto', sans-serif;
+   color: #7f9;
+   background-color: rgb(87, 0, 145);
 }
 
 /* 1rem = 16px = 100% */

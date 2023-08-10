@@ -1,6 +1,29 @@
 /******************************
            Box Model 
  *****************************/
+p.box-model2.display.paragraph1,
+p.box-model2.display.paragraph2,
+p.box-model2.display.paragraph3 {
+   background-color: gray;
+   display: block;
+   margin: 10px;
+   padding: 15px;
+}
+
+a.box-model2.display.links {
+   padding: 10px;
+   border: 2px solid brown;
+   background-color: khaki;
+   display: inline-block;
+   height: 100px;
+}
+
+button.box-model2.display.button {
+   display: block;
+   padding: 10px 20px;
+   margin: 10px 0;
+}
+
 h1.box-model {
    background-color: aquamarine;
    padding: 20px;
@@ -28,7 +51,6 @@ p.box-model.paragraph3 {
    border-right: 5px solid;
    border-image: linear-gradient(to bottom, tomato, orange) 1 100%;
 }
-
 
 
 /******************************

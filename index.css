@@ -1,24 +1,39 @@
-body {
-    margin: 0;
-    padding: 0;
+/******************************
+           typography 
+ *****************************/
+p {
+   /* default typography property in css */
+   font-size: 1.2rem;
+   font-weight: bold;
+   font-style: italic;
+   font-family: 'Courier New', Courier, monospace;
 }
 
-/* descendent selector */
-div p {                         /* select all the child inside div */
-    background-color: aqua;
+/* 1rem = 16px = 100% */
+
+/******************************
+    Selector & Combinator 
+ *****************************/
+div p {
+   /* descendent selector */
+   /* select all the child inside div */
+   /* background-color: aqua; */
 }
 
-/* child selector */
-#div1>p {                       /* select all the immediate child inside #div1 */
-    color: blueviolet;
+#div1>p {
+   /* child selector */
+   /* select all the immediate child inside #div1 */
+   /* color: blueviolet; */
 }
 
-/* adjacent sibling selector */
-#div1 + p {                     /* select the first p after the #div1 */
-    font-size: 1.5rem;
+#div1+p {
+   /* adjacent sibling selector */
+   /* select the first p after the #div1 */
+   /* font-size: 1.5rem; */
 }
 
-/* general sibling selector */
-#div1 ~ p {                     /* select all p that come after #div1 */
-    text-decoration: underline;
+#div1~p {
+   /* general sibling selector */
+   /* select all p that come after #div1 */
+   /* text-decoration: underline; */
 }

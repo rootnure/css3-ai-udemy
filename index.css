@@ -6,9 +6,19 @@ p#typography {
    font-size: 1.2rem;
    font-weight: bold;
    font-style: italic;
-   font-family: 'Roboto', sans-serif;
    color: #7f9;
    background-color: rgb(87, 0, 145);
+   font-family: 'Roboto', sans-serif;
+   /* text property */
+   text-align: center;
+   text-transform: uppercase;
+   text-decoration: underline;
+   text-shadow: 0.2rem 0.15rem gray;
+   letter-spacing: 0.25rem;
+   line-height: 2rem;
+
+   /* extra style */
+   padding: 15px;
 }
 
 /* 1rem = 16px = 100% */

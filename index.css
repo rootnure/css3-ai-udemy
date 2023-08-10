@@ -15,7 +15,7 @@ a.box-model2.display.links {
    border: 2px solid brown;
    background-color: khaki;
    display: inline-block;
-   height: 100px;
+   max-height: 100px;
 }
 
 button.box-model2.display.button {
@@ -27,6 +27,14 @@ button.box-model2.display.button {
 h1.box-model {
    background-color: aquamarine;
    padding: 20px;
+}
+
+button.box-model2.display.button1 {
+   width: 500px;
+}
+
+button.box-model2.display.button2 {
+   max-width: 150px;
 }
 
 p.box-model.paragraph1 {

@@ -2,6 +2,15 @@
            Box Model 
 ******************************/
 
+.header {
+   height: 500px;
+   background-image: url("./nature.jpg");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+
 p.box-model3.paragraph {
    width: 500px;
    max-height: 200px;
@@ -12,7 +21,6 @@ p.box-model3.paragraph.overflow {
    overflow: auto;
    overflow-x: hidden;
 }
-
 
 img {
    width: 50%;
@@ -117,7 +125,7 @@ p#typography {
 div p {
    /* descendent selector */
    /* select all the child inside div */
-   background-color: aqua;
+   font-weight: 400;
 }
 
 #div1>p {

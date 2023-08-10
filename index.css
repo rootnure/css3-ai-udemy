@@ -14,6 +14,7 @@ p.box-model.paragraph1 {
 p.box-model.paragraph2 {
    background-color: lime;
    padding: 20px 10px 20px 10px;
+   border: 20px solid lightblue;
    margin: 50px;
 }
 

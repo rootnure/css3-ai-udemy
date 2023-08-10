@@ -17,23 +17,23 @@ p {
 div p {
    /* descendent selector */
    /* select all the child inside div */
-   /* background-color: aqua; */
+   background-color: aqua;
 }
 
 #div1>p {
    /* child selector */
    /* select all the immediate child inside #div1 */
-   /* color: blueviolet; */
+   color: blueviolet;
 }
 
 #div1+p {
    /* adjacent sibling selector */
    /* select the first p after the #div1 */
-   /* font-size: 1.5rem; */
+   font-size: 1.5rem;
 }
 
 #div1~p {
    /* general sibling selector */
    /* select all p that come after #div1 */
-   /* text-decoration: underline; */
+   text-decoration: underline;
 }

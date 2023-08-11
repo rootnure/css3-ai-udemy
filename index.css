@@ -1,3 +1,18 @@
+/*##############################
+           Advance 
+##############################*/
+
+/******************************
+           Variable 
+******************************/
+:root {
+   --primary-color: #000;
+   --secondary-color: #fff;
+   --text-color: #ff0;
+}
+
+
+
 /******************************
            Box Model 
 ******************************/
@@ -8,18 +23,23 @@
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-size: cover;
+   filter: saturate(0);
 }
 
+.header:hover {
+   filter: saturate(1);
+}
 
 p.box-model3.paragraph {
    width: 500px;
    max-height: 200px;
    padding: 10px;
-   background-color: cyan;
+   background-color: var(--primary-color);
 }
 p.box-model3.paragraph.overflow {
    overflow: auto;
    overflow-x: hidden;
+   color: var(--text-color);
 }
 
 img {
@@ -84,13 +104,14 @@ p.box-model.paragraph2 {
 
 p.box-model.paragraph3 {
    width: 400px;
-   background-color: aqua;
+   background-color: var(--primary-color);
    padding-top: 20px;
    padding-right: 10px;
    padding-bottom: 20px;
    padding-left: 10px;
    border-right: 5px solid;
    border-image: linear-gradient(to bottom, tomato, orange) 1 100%;
+   color: var(--text-color);
 }
 
 

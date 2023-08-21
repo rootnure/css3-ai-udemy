@@ -15,9 +15,6 @@
 /******************************
            Box Shadow 
 ******************************/
-.skills {
-
-}
 .card{
    width: 20rem;
    background-color: bisque;
@@ -26,12 +23,6 @@
 }
 .card:hover {
    box-shadow: 0.5rem 0.5rem 2rem #ccc, -0.5rem -0.5rem 2rem #ccc;
-}
-.card-title {
-
-}
-.card-body {
-
 }
 
 /******************************

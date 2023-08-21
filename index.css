@@ -12,6 +12,27 @@
 }
 
 
+/******************************
+           Box Shadow 
+******************************/
+.skills {
+
+}
+.card{
+   width: 20rem;
+   background-color: bisque;
+   margin: 1rem;
+   padding: 1rem;
+}
+.card:hover {
+   box-shadow: 0.5rem 0.5rem 2rem #ccc, -0.5rem -0.5rem 2rem #ccc;
+}
+.card-title {
+
+}
+.card-body {
+
+}
 
 /******************************
            Box Model 

@@ -11,12 +11,49 @@
    --text-color: #ff0;
 }
 
+/******************************
+         Layout Design 
+******************************/
+/* float */
+.tutorials {
+   background-color: #ff0;
+}
+.tutorials::after {
+   content: '';
+   clear: both;
+   display: table;
+}
+.tutorial1 {
+   background-color: red;
+   float: left;
+}
+.tutorial2 {
+   background-color: green;
+   float: left;
+}
+.tutorial3 {
+   background-color: blue;
+   float: left;
+}
+
+.section-title {
+   text-align: center;
+}
+.row .card {
+   float: left;
+}
+.row::after {
+   content: '';
+   clear: both;
+   display: table;
+}
+
 
 /******************************
            Box Shadow 
 ******************************/
 .card{
-   width: 20rem;
+   width: 15rem;
    background-color: bisque;
    margin: 1rem;
    padding: 1rem;
